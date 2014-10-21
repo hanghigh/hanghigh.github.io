@@ -1,0 +1,30 @@
+@font-face {
+
+	font-family: AmaticSC;
+	src: url('../fonts/AmaticSC.ttf');
+
+}
+
+@font-face {
+
+	font-family: Oranienbaum;
+	src: url('../fonts/Oranienbaum.ttf');
+
+}
+
+@font-face {
+
+	font-family: Fenix;
+	src: url('../fonts/Fenix.ttf');
+
+}
+
+body {
+
+	padding: 0px;
+	color: #F2F2F2;
+	font-size: 16px;
+	font-family: Oranienbaum;
+	background-color: #000000;
+
+}

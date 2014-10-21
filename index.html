@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+	
+		<title>Hang High</title>
+		
+		<link type="text/css" rel="stylesheet" href="css/main.css" />
+		<link type="text/css" rel="stylesheet" href="css/content.css" />
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		
+	</head>
+	
+	<body id="hideMe">
+		
+		<script>
+		
+		$(window).load(function() {
+			
+			$("#hideMe").hide().fadeIn(4000);
+			$(".back").hide().fadeIn(10000);
+			
+		});
+		
+		</script>
+		
+		<p id="headTitle">Hang High</p>
+		
+		<img class="back" src="media/images/back.png" />
+        
+        <ul>
+        
+            <li><img class="icon" src="media/images/mail.png" /></li>
+            <li><img class="icon" src="media/images/youtube.png" /></li>
+            <li><img class="icon" src="media/images/about.png" /></li>
+        
+        </ul>
+		
+		<audio loop autoplay>
+		
+			<source src="media/audio/music.mp3" />
+		
+		</audio>
+	
+	</body>
+
+</html>
