@@ -73,6 +73,58 @@ img.icon:hover, img.icon:active {
     
 }
 
+#aboutInfo {
+
+	width: 50%;
+	right: 20%;
+	bottom: -200px;
+	position: fixed;
+	line-height: 1.5em;
+	-webkit-transition: all 1000ms ease-in-out;
+	-moz-transition: all 1000ms ease-in-out;
+	-o-transition: all 1000ms ease-in-out;
+	transition: all 1000ms ease-in-out;
+
+}
+
+#close {
+
+	position: relative;
+
+}
+
+a {
+
+	text-decoration: none;
+	color: inherit;
+
+}
+
+p.aboutText {
+
+	display: inline-block;
+
+}
+
+a.caretaker {
+
+	border-bottom: 1px dotted #F2F2F2;
+	padding-bottom: 3px;
+	color: #04B45F;
+	-webkit-transition: all 500ms ease-in-out;
+	-moz-transition: all 500ms ease-in-out;
+	-o-transition: all 500ms ease-in-out;
+	transition: all 500ms ease-in-out;
+
+}
+
+a.caretaker:hover {
+
+	border-bottom: 1px dotted #D8D8D8;
+	color: #088A4B;
+
+}
+
 @-moz-keyframes swing{
     0%{-moz-transform:rotate(-20deg)}
     50%{-moz-transform:rotate(20deg)}

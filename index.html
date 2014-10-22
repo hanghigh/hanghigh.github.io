@@ -11,10 +11,6 @@
 		
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		
-	</head>
-	
-	<body id="hideMe">
-		
 		<script>
 		
 		$(window).load(function() {
@@ -22,6 +18,32 @@
 			$("#hideMe").hide().fadeIn(4000);
 			$(".back").hide().fadeIn(10000);
 			
+		});
+		
+		</script>
+		
+	</head>
+	
+	<body id="hideMe">
+		
+		<script>
+		
+		$(function() {
+		
+			$("#about").click(function() {
+			
+				$("div, #aboutInfo").css("bottom", "10%");
+			
+				return false;
+			
+			});
+			
+			$("#close").click(function() {
+				
+				$("div, #aboutInfo").css("bottom", "-200px");
+				
+			});
+		
 		});
 		
 		</script>
@@ -34,9 +56,23 @@
         
             <li><img class="icon" src="media/images/mail.png" /></li>
             <li><img class="icon" src="media/images/youtube.png" /></li>
-            <li><img class="icon" src="media/images/about.png" /></li>
+            <li><img class="icon" id="about" src="media/images/about.png" /></li>
         
         </ul>
+        
+        <div id="aboutInfo">
+        
+			<p class="aboutText">Hang High is an animated short created by Bowen Brunner in 2014.
+			It was created purely for his own interests, and because he felt
+			like making a piece rather darker than the ones he usually
+			creates. This is made available for viewing on YouTube. The site
+			theme is "All you are going to want to do is get back there," by
+			<a class="caretaker" href="http://thecaretaker.bandcamp.com/"
+			target="_blank">The Caretaker</a>.</p>
+			
+			<img class="icon" id="close" src="media/images/close.png" />
+        
+        </div>
 		
 		<audio loop autoplay>
 		
